@@ -1,0 +1,130 @@
+body{
+    margin: 0 auto;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+    
+}
+.main-heading{
+    font-size: 2.5rem;
+    letter-spacing: 2.5px;
+    text-align: center;
+}
+.main-heading-div{
+    margin-top: 10%;
+}
+.sub-heading a:hover{
+    text-decoration: none;
+    color: #0275d8;
+}
+.typewrite{ 
+    font-size: 1.2rem;
+    color:#fff;
+    text-decoration: none;
+     
+}
+.background-image{
+    background: url(https://cdn.pixabay.com/photo/2020/02/15/14/33/network-4851119_960_720.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  color:#fff;
+
+  font-family: 'Playfair Display', serif;
+}
+.navbar-nav li a{
+    color: white;
+    font-size: 20px;
+}
+.navbar-nav li a:hover{
+    color:#8cc8fa;
+}
+.btn-info{
+    color: white;
+}
+.background-image h1{
+   
+    text-align: center;
+    
+}
+.background-image .sub-heading{
+  margin-top: -1.8%;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-align: center;
+    
+}
+.startnow{
+    text-align: center;
+}
+.social-media{
+    text-align: center;
+    
+}
+.social-media a{
+    color: honeydew;
+    
+}
+.social-media .social-link{
+    padding-left: 7px;
+    font-size: 1rem;
+    
+}
+.social-media .social-link:hover{
+    color: #0275d8;
+    
+}
+.personal-pic-behind{
+    background-color: #0275d8;
+    
+    border: 1px solid #0275d8;
+    border-radius: 20px;
+    
+}
+.personal-pic-front{
+    background-color: green;
+    
+    margin-top: 15%;
+    margin-left: 10%;
+    border: 1px solid #0275d8;
+    border-radius: 20px;
+    
+}
+.personal-pic-front img{
+   
+    
+}
+h5{
+    font-size: 2rem;
+    border:1px solid green;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+h5:hover{
+    background-color: #5cb85c;
+    color: honeydew;
+}
+.personal-pic img{
+    text-align: center;
+    border: 1px solid #5cb85c;
+    padding: 8px;
+    
+    
+    
+    
+    
+}
+.personal-pic img:hover{
+    background-color: #5cb85c;
+   
+    
+}
+
+
+
+
+
+
