@@ -104,7 +104,9 @@ h5{
 
 }
 h5:hover{
-    background-color: #5cb85c;
+    background: #1FA2FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
     color: honeydew;
 }
 .personal-pic img{
@@ -118,12 +120,33 @@ h5:hover{
     
 }
 .personal-pic img:hover{
-    background-color: #5cb85c;
+    background: #1FA2FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
    
     
 }
-
-
+.side-sec-hono{
+    
+    font-size: 20px;
+    border:1px solid #5cb85c;
+    border-radius: 20px;
+    padding: 10px;
+    color:rgb(124, 119, 119);
+    background: #1FA2FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.side-sec-skill{
+   
+    border:1px solid #5cb85c;
+    border-radius: 20px;
+    padding: 20px; 
+    background: #1FA2FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
+}
 
 
 
