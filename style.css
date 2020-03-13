@@ -1,3 +1,7 @@
+
+/* green
+#8CD790  */
+
 body{
     margin: 0 auto;
     text-transform: capitalize;
@@ -15,11 +19,11 @@ body{
 }
 .sub-heading a:hover{
     text-decoration: none;
-    color: #0275d8;
+    color: #8CD790;
 }
 .typewrite{ 
     font-size: 1.2rem;
-    color:#fff;
+    color:#ffff;
     text-decoration: none;
      
 }
@@ -39,7 +43,7 @@ body{
     font-size: 20px;
 }
 .navbar-nav li a:hover{
-    color:#8cc8fa;
+    color:#8CD790;
 }
 .btn-info{
     color: white;
@@ -59,12 +63,16 @@ body{
 .startnow{
     text-align: center;
 }
+.startnow a:hover{
+    background-color: #5cb85c;
+    color: #FFFFFF;
+}
 .social-media{
     text-align: center;
     
 }
 .social-media a{
-    color: honeydew;
+    color: #FFFFFF;
     
 }
 .social-media .social-link{
@@ -96,6 +104,10 @@ body{
    
     
 }
+.about-name{
+    color: #8CD790;
+}
+
 h5{
     font-size: 2rem;
     border:1px solid green;
@@ -104,10 +116,9 @@ h5{
 
 }
 h5:hover{
-    background: #1FA2FF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
-    color: honeydew;
+    background: #8CD790;  /* fallback for old browsers */
+  
+    color: #FFFFFF;
 }
 .personal-pic img{
     text-align: center;
@@ -120,10 +131,8 @@ h5:hover{
     
 }
 .personal-pic img:hover{
-    background: #1FA2FF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
-   
+    background: #8CD790;  /* fallback for old browsers */
+    
     
 }
 .side-sec-hono{
@@ -132,10 +141,8 @@ h5:hover{
     border:1px solid #5cb85c;
     border-radius: 20px;
     padding: 10px;
-    color:rgb(124, 119, 119);
-    background: #1FA2FF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:#FFFFFF;
+    background: #8CD790;  
     
 }
 .side-sec-skill{
@@ -143,11 +150,15 @@ h5:hover{
     border:1px solid #5cb85c;
     border-radius: 20px;
     padding: 20px; 
-    background: #1FA2FF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
+    background: #8CD790;  /* fallback for old browsers */
+   
+    color: #FFFFFF;
+
 }
-
-
-
+.card-body{
+    background: #8CD790;
+    color: #FFFFFF;
+    font-size: 1.1rem;
+    text-align: center;
+}
 
